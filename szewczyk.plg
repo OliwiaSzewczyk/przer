@@ -3,16 +3,19 @@
 <pre>
 <h1>µVision Build Log</h1>
 <h2>Project:</h2>
-C:\Users\kmie\Desktop\Nowy folder\przer\szewczyk.uvproj
+C:\Users\kmie\Desktop\przerwania\przer\szewczyk.uvproj
 Project File Date:  05/22/2024
 
 <h2>Output:</h2>
-Build target 'Target 1'
+Rebuild target 'Target 1'
+assembling Startup.s...
+compiling keyboard.c...
+compiling led.c...
 compiling main.c...
-main.c(55): warning:  #1-D: last line of file ends without a newline
+compiling timer.c...
 linking...
 Program Size: Code=1224 RO-data=32 RW-data=4 ZI-data=1260  
 FromELF: creating hex file...
-".\szewczyk.axf" - 0 Errors, 1 Warning(s).
+".\szewczyk.axf" - 0 Errors, 0 Warning(s).
 Clean started: Project: 'szewczyk'
    deleting intermediate output files for target 'Target 1'

@@ -47,9 +47,9 @@ void Timer1Interrupts_Init(unsigned int uiPeriod){ // microseconds
 int main (){
 	unsigned int iMainLoopCtr;
 	Timer1Interrupts_Init(1000);
+	//gi test
 
 	while(1){
 	 	iMainLoopCtr++;
 	}
 }
-//oki
